@@ -37,13 +37,16 @@
       <div class="navbar-inner">
         <div class="container-narrow">
           <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
-					<a class="brand" href="https://twitter.com/hackerschool">@hackerschool</a>
+					<a class="hs_link" href="https://twitter.com/hackerschool">@hackerschool</a>
           <ul class="nav">
             {% assign pages_list = site.pages %}
             {% assign group = 'navigation' %}
             {% include JB/pages_list %}
 						<li>
-							<a href="http://vagabonds.lambda.lt/">Climbing</a>
+							<a href="http://vagabonds.lambda.lt/" target="_blank">Climbing blog</a>
+						</li>
+						<li>
+							<a href="http://www.movescount.com/members/_lrb_" target="_blank">Training</a>
 						</li>
 					</ul>
         </div>
