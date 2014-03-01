@@ -1,0 +1,43 @@
+.social-holder {
+    text-align: center;
+    margin: auto;
+}
+
+.bio {
+  text-align: justify;
+  
+}
+
+.navbar .hs_link {
+    float: left;
+    font-size: 20px;
+    font-weight: 200;
+    margin-left: -20px;
+    padding: 10px 20px;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.selfie {
+  padding: 10px;
+}
+
+p {
+  text-align: justify;
+}
+
+img[alt=Rules] {
+  height:320px;
+  width: 240px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img[alt=HS] {
+  height:240px;
+  width: 320px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
