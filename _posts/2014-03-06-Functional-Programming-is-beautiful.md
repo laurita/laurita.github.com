@@ -22,13 +22,13 @@ However, imagine a situation where you need to apply some function to all the su
 ```
 def combinations[T](n: Int, list: List[T]): List[List[T]] = {
 	def rec(list: List[T], acc: List[List[T]], comb: List[T]): List[List[T]] = {
-  	(comb, list) match {
-    	case (c, _) if c.length == n => List(c.reverse)
-      case (c, Nil) if c.length < n => List()
-      case (c, l) => rec(list.tail, acc, list.head::comb) ::: rec(list.tail, acc, comb)
-    }
-  }
-  rec(list, Nil, Nil)
+		(comb, list) match {
+			case (c, _) if c.length == n => List(c.reverse)
+			case (c, Nil) if c.length < n => List()
+			case (c, l) => rec(list.tail, acc, list.head::comb) ::: rec(list.tail, acc, comb)
+		}
+	}
+	rec(list, Nil, Nil)
 }
 ```
 
@@ -37,9 +37,9 @@ Not the most beautiful, not tail-recursive, though quite understandable I guess.
 ```Scala
 def flatMapSublists[T, V](ls: List[T])(f: List[T] => List[V]): List[V] = {
 	ls match {
-  	case Nil => Nil
-    case list@(_ :: t) => f(list) ::: flatMapSublists(t)(f)
-  }
+		case Nil => Nil
+		case list@(_ :: t) => f(list) ::: flatMapSublists(t)(f)
+	}
 }
 
 def combinations[T](n: Int, list: List[T]): List[List[T]] = {
