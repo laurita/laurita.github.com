@@ -6,11 +6,11 @@ tags: [Hacker School, NYC]
 ---
 {% include JB/setup %}
 
-![HS](/images/hs_all.JPG "Hacker School W14")
+[![HS all](/images/hs_all_small.JPG "Hacker School W14")](/assets/hs_all.JPG)
 
 And so the most geeky three months of my life have finished. It feels sad but let's not be too sentimental. We danced long enough to mark the end of it properly (long enough being all night or until 6am sharp to be precise). It was super awesome and we beat the previous batch's record which I heard was 5am. And even if I am not supposed to show my weakness, I'll confess that my legs hurt for three days after that. However, I guess I am not the only one like that :)
 
-![HS](/images/hs_last.JPG "Hacker School W14")
+[![HS last](/images/hs_last_small.JPG "Hacker School W14")](/assets/hs_last.JPG)
 
 Now I am back in Zurich which seems very spacious and green after the New York buildings and crowds. I have started writing down the plans for the future but for now I will briefly mention the things that I did at Hacker School. Hopefully (no promise), I will explain some of the projects in more detail some day.
 
