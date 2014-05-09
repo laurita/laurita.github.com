@@ -51,4 +51,4 @@ If talking about the overall reflections about Hacker School, from my point of v
 
 Never graduate!
 
-(Thanks Maja for pictures)
+(Thanks [@maja_zf](https://twitter.com/maja_zf) for pictures)
