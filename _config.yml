@@ -3,7 +3,7 @@
 permalink: /:categories/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-pygments: true
+highlighter: pygments
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
@@ -14,7 +14,7 @@ author :
   name : Laura Bledaite
   email : laura.bledaite@gmail.com
   github : laurita
-  twitter : __lrb__
+  twitter : eigenlaura
   feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
