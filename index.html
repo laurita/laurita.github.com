@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>brb</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Laura Home Page</title>
   <style type="text/css">
     body {
-      margin-left: 15px;
+      min-width: 30ex;
+      max-width: 150ex;
+      margin: 1em .8em;
     }
     * {
-      font-family: verdana;
+      font-family: monospace;
       font-size: 11pt;
     }
     pre {
@@ -17,49 +18,52 @@
       padding: 0;
     }
     a {
-      color: blue;
+      color: black;
+      text-decoration: underline;
     }
     a:hover {
       color: white;
-      background: blue;
+      background: black;
     }
-    div.left {
+    div.column-a {
+      width: 255px;
       float: left;
-      width: 25%;
     }
-    div.right {
+    div.column-b {
+      width: 700px;
       float: left;
-      width: 73%;
-      padding-right: 10px;
+    }
+    div.row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    img.myself {
+      width: 250px;
+    }
+    ul {
+      margin-left: 25px;
     }
   </style>
 </head>
 <body>
-  <div>
-  <div class="left">
-    <img src="laura_pumpute.jpg" alt="Laura" width="285px" height="283px">
+  <div class="row">
+    <div class="column-a">
+      <img class="myself" src="laura_pumpute.jpg" alt="Laura">
+    </div>
+    <div class="column-b">
+      Hi, my name is <a href="mailto:pumpute.laura@gmail.com">Laura Pumputė</a>. I am a data scientist passionate about machine learning and functional programming. I am most fluent in Scala but also use R and Python on a daily basis. My other interests include rock climbing, trail running and cross-country skiing.<br>
+      <br>
+      Me elsewhere: <br>
+      - <a href="https://twitter.com/eigenlaura">Twitter</a><br>
+      - <a href="https://github.com/laurita">Github</a><br>
+      - <a href="http://vagabonds.lt/">Climbing blog</a><br>
+      - <a href="https://www.8a.nu/scorecard/laura-pumpute/routes/?AscentClass=0&amp;AscentListViewType=0&amp;GID=b24387f3b76e8678104db1183385317f">8a.nu</a><br><br>
+      Publications:<br>
+      - Short paper: <a href="https://dl.acm.org/citation.cfm?doid=2700171.2791049">L. Bledaite and F. Ricci, Pairwise Preferences Elicitation and Exploitation for Conversational Collaborative Filtering, in Proceedings of the 26th ACM Conference on Hypertext &amp; Social Media, Guzelyurt, Northern Cyprus, 2015.</a><br>
+      - Conference talk: <a href="https://skillsmatter.com/skillscasts/6844-count-min-sketch-in-real-data-applications">L. Bledaite, Count-Min Sketch in Real Data
+      Applications, Scala eXchange, London, UK, 2015</a>
+    </div>
   </div>
-  <div class="right">
-Hi, my name is <a href="mailto:pumpute.laura@gmail.com">Laura Pumputė</a>. I am a data scientist passionate about machine learning and functional programming. I am most fluent in Scala but also use R and Python on a daily basis. My other interests include rock climbing, trail running and cross-country skiing.<br>
-
-<br>
-Me elsewhere: <br>
-
-<ul>
-  <li><a href="https://twitter.com/eigenlaura">Twitter</a></li>
-  <li><a href="https://github.com/laurita">Github</a></li>
-  <li><a href="http://vagabonds.lt">Climbing blog</a></li>
-  <li><a href="https://www.8a.nu/scorecard/laura-pumpute/routes/?AscentClass=0&AscentListViewType=0&GID=b24387f3b76e8678104db1183385317f">8a.nu</a></li>
-</ul>
-
-Publications:<br>
-
-<ul>
-  <li>Short paper: <a href="https://dl.acm.org/citation.cfm?doid=2700171.2791049">L. Bledaite and F. Ricci, Pairwise Preferences Elicitation and Exploitation for Conversational Collaborative Filtering, in Proceedings of the 26th ACM Conference on Hypertext & Social Media, Guzelyurt, Northern Cyprus, 2015.</a></li>
-  <li>Conference talk: <a href="https://skillsmatter.com/skillscasts/6844-count-min-sketch-in-real-data-applications">L. Bledaite, Count-Min Sketch in Real Data Applications, Scala eXchange, London, UK, 2015</a></li>
-</ul>
-
-</div>
-</div>
 </body>
 </html>
